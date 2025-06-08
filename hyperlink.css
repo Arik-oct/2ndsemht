@@ -1,0 +1,36 @@
+a{
+    font-size: italic;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.4s all ease-in-out;
+}
+/* using psuedo class :link for default state */
+a:link{
+   color: brown;
+}
+/* pauedo colour visited*/
+a:visited{
+    color: yellowgreen;
+}
+a:hover{
+    color: blue;
+    font-size: 30px;
+    border-radius: 50px;
+
+}
+a:active{
+    color: aqua;
+    border-radius: 0px;
+}
+#rot{
+    transition:  3s all linear;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}
+#rot:hover{
+    transform: rotate(360deg);
+}
